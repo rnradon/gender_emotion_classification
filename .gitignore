@@ -1,5 +1,5 @@
 *.tar
-data/
+data/imdb_crop
 .DS_Store
 .DS_Store?
 .ipynb_checkpoints
