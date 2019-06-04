@@ -1,10 +1,10 @@
 # IGNORE THESE FILES BELOW
 *.tar
-data/imdb_crop
+data/imdb_crop/*
 .DS_Store
 .DS_Store?
 .ipynb_checkpoints
 
 # DO NOT IGNORE THESE FILES
-!gender_df.csv
+!/data/imdb_crop/gender_df.csv
 
