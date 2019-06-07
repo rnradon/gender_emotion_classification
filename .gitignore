@@ -4,7 +4,12 @@ data/imdb_crop/*
 .DS_Store
 .DS_Store?
 .ipynb_checkpoints
+__pycache__
 
 # DO NOT IGNORE THESE FILES
-!/data/imdb_crop/gender_df.csv
+!/data/imdb_crop/*.txt
+!/data/imdb_crop/gender_grayscale.csv.zip
+!/data/imdb_crop/grayscale_df_1.csv.zip
+
+
 
