@@ -6,11 +6,11 @@ from keras import optimizers
 from keras.callbacks import ReduceLROnPlateau, EarlyStopping, TensorBoard, ModelCheckpoint
 
 
-def first_deep_cnn(num_classes):
+def first_deep_cnn(num_classes, input_shape):
     model = Sequential()
 
     # layer 1
-    model.add(Conv2D(32,(3,3),padding = 'same',activation = 'relu',input_shape = (64,64,1),name = 'c1'))
+    model.add(Conv2D(32,(3,3),padding = 'same',activation = 'relu',input_shape = input_shape, name = 'c1'))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size = (2,2),name = 'mp1'))
 
